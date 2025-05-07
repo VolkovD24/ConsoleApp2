@@ -10,11 +10,11 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.Write(&quot; Введите значения параметра x = &quot;);
+            Console.Write("Введите значения параметра x = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
-            double F = 2 * Math.Cos(x);
-            Console.WriteLine($&quot; Для значения х = { x}, F = { F}.&quot;);
+            double F = 2 * Math.Sin(x) + 3 * Math.Cos(x);
+            Console.WriteLine("Для значения х = { x}, F = { F}.");
         }
     }
 }
