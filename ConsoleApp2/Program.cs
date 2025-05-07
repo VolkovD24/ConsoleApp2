@@ -13,6 +13,7 @@ namespace ConsoleApp2
             Console.Write(&quot; Введите значения параметра x = &quot;);
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
+            double F = 2 * Math.Cos(x);
         }
     }
 }
